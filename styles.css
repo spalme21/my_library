@@ -18,15 +18,16 @@ html, body {
 
 .bookshelf {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 150px);
+    margin-left: 15px;
+    grid-template-columns: repeat(auto-fill, 200px);
     gap: 15px;
 }
 
 .book {
     text-align: center;
     border: 1px solid black;
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
     display: grid;
     align-content: center;
     justify-content: center;
