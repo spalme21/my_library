@@ -5,10 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Multani&display=swap" rel="stylesheet">
   <script src="scripts.js" defer></script>
 </head>
 <body>
   <div class="header">
+    <h1>My Library</h1>
     <button class="btn" id="new-btn">New Book</button>
     <dialog id="dialog">
       <form id="dialog">
@@ -18,8 +22,8 @@
         <input type="text" name="author" id="author">
         <label for="pages">Number of Pages:</label>
         <input type="number" name="pages" id="pages">
-        <button id="add-btn">Add Book</button>
-        <button id="cancel" formmethod="dialog">Cancel</button>
+        <button class="btn" id="add-btn">Add Book</button>
+        <button class="btn" id="cancel" formmethod="dialog">Cancel</button>
       </form>
     </dialog>
   </div>

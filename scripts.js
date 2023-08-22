@@ -31,15 +31,17 @@ function display() {
         const author = document.createElement("p");
         author.textContent = book.author;
         const pages = document.createElement("p");
-        pages.textContent = book.pages;
+        pages.textContent = `${book.pages} pages`;
         const read = document.createElement("p");
         read.textContent = book.read ? "Read" : "Not Read";
         const readButton = document.createElement("button");
         readButton.textContent = book.read? "Mark as Unread" : "Mark as Read";
         readButton.classList.add("read");
+        readButton.classList.add("btn");
         const removeButton = document.createElement("button");
         removeButton.textContent = "Remove";
         removeButton.classList.add("remove");
+        removeButton.classList.add("btn");
         newBook.appendChild(title);
         newBook.appendChild(author);
         newBook.appendChild(pages);
