@@ -41,3 +41,10 @@ function display() {
 }
 
 display();
+
+const newBtn = document.getElementById("new-btn");
+const dialog = document.getElementById("dialog");
+
+newBtn.addEventListener("click", (e) => {
+    dialog.showModal();
+})
